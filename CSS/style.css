@@ -3,10 +3,6 @@ body {
     background-color: #221e41;
     color: rgb(180, 209, 73);
 }
-
-div {
-    
-}
 footer{
     display: flex;
     padding: 10px 0;
