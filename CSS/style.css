@@ -1,0 +1,18 @@
+body {
+    margin: 4rem;
+    background-color: #221e41;
+    color: rgb(180, 209, 73);
+}
+
+div {
+    
+}
+footer{
+    display: flex;
+    padding: 10px 0;
+    color: rgb(180, 209, 73);
+    bottom: 0;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
