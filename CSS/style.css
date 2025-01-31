@@ -22,7 +22,8 @@ nav ul {
     list-style: none;
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: right;
+
 }
   
 nav ul li {
