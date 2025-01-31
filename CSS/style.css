@@ -1,14 +1,77 @@
 body {
-    margin: 4rem;
-    background-color: #221e41;
-    color: rgb(180, 209, 73);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #1b1631;
+    color: white;
 }
-footer{
+  
+header {
+    background: #1b1631;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+  
+header h1 {
+    margin: 0;
+}
+  
+nav ul {
+    list-style: none;
+    padding: 0;
     display: flex;
-    padding: 10px 0;
-    color: rgb(180, 209, 73);
-    bottom: 0;
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
+}
+  
+nav ul li {
+    margin: 0 1rem;
+}
+  
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    color: #942252;
+}
+  
+section {
+    padding: 2rem;
+    text-align: center;
+}
+  
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #942252;
+    color: #fff;
+}
+  
+/* Proyectos */
+.project {
+    border: 1px solid #ddd;
+    margin: 1rem auto;
+    padding: 1rem;
+    max-width: 600px;
+}
+@media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+    }
+    .project {
+      margin: 1rem;
+    }
+}
+footer a {
+    transition: color 0.3s ease;
+    text-decoration: none;
+    color: white;
+}
+footer a:hover {
+    color: #1b1631;
+}
+
+nav ul li a:hover {
+    color: #fff;
 }
