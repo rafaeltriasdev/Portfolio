@@ -3,15 +3,14 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-color: #1b1631;
+    background-color: #616754;
     color: white;
 }
   
 header {
-    background: #1b1631;
+    background: #51524a;
     color: #fff;
-    padding: 1rem 0;
-    text-align: center;
+    padding: 2rem 0;
 }
   
 header h1 {
@@ -34,18 +33,22 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     transition: color 0.3s ease;
-    color: #942252;
+    color: white;
 }
-  
+
 section {
     padding: 2rem;
     text-align: center;
 }
-  
+
+#name {
+    color: #242805;
+}
+
 footer {
     text-align: center;
     padding: 1rem 0;
-    background: #942252;
+    background: #51524a;
     color: #fff;
 }
   
@@ -64,15 +67,31 @@ footer {
       margin: 1rem;
     }
 }
+
+#projects a {
+    transition: color 0.3s ease;
+    text-decoration: none;
+    color: white;
+}
+
+#projects a:hover {
+    color: #242805;
+}
 footer a {
     transition: color 0.3s ease;
     text-decoration: none;
     color: white;
 }
 footer a:hover {
-    color: #1b1631;
+    color: #242805;
 }
 
 nav ul li a:hover {
-    color: #fff;
+    color: #242805;
+}
+.habilidades {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+
 }
