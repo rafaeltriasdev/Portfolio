@@ -3,8 +3,8 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-color: #616754;
-    color: white;
+    background-color: #2A1C4F;
+    color: #FF9347;
 }
   
 header {
@@ -42,7 +42,7 @@ section {
 }
 
 #name {
-    color: #242805;
+    color: #FF9347
 }
 
 footer {
@@ -93,5 +93,11 @@ nav ul li a:hover {
     list-style: none;
     padding: 0;
     text-align: center;
+}
 
+.progress {
+    color: white;
+}
+.progress-bar {
+    
 }
