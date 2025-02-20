@@ -66,8 +66,8 @@ section {
 
 footer {
   text-align: center;
-  padding: 0 0;
-  background: #353537ff;
+  background-color: #34353aff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   color: #eabc72ff;
 }
 
